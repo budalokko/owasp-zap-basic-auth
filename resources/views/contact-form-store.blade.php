@@ -7,8 +7,8 @@
     <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
         <div class="p-6">
             <p>Submitted values:</p>
-            <p>Title: {!! $title !!}</p>
-            <p>Content: {!! $content !!}</p>
+            <p>Title: {{ $title }}</p>
+            <p>Content: {{ $content }}</p>
         </div>
     </div>
 
